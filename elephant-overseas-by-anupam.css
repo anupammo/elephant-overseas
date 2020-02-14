@@ -1,0 +1,60 @@
+/* Stylesheet by Anupam Mondal for Elephant Overseas */
+/* Developer URL https://anupammondal.in */
+/* html {
+  scroll-behavior: smooth;
+} */
+html {
+    scroll-behavior: smooth;
+}
+@media only screen and (min-width: 767px) {
+    .header-slider {
+        height: 500px;
+    }
+}
+.card-title {
+    font-weight: 700;
+    border: #fff solid 4px;
+    width: fit-content;
+    margin: 10px auto;
+    margin-top: -50px;
+    padding: 10px;
+}
+img.card-img-top {
+    height: 220px;
+}
+.parallax {
+    /* The image used */
+    background-image: url("https://images.pexels.com/photos/421927/pexels-photo-421927.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  
+    /* Set a specific height */
+    min-height: 250px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-layer {
+    background-color: #000000bb;
+}
+ul li {
+    font-size: 15px;
+    text-align: justify;
+}
+table tbody tr td {
+    font-size: 14px;
+    padding: 2px !important;
+    text-align: justify;
+}
+.img-style {
+    padding: 10px;
+    box-shadow: #000 0px 0px 2px;
+}
+.card {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+a.nav-link {
+    text-transform: uppercase;
+}
